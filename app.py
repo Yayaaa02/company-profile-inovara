@@ -12,7 +12,7 @@ page = st.sidebar.radio("Pindah ke Halaman:", ["Home", "Profil & Video"])
 
 # --- HALAMAN 1: Home ---
 if page == "Home":
-    st.title(" PT. Inovara Digital Noesantara")
+    st.title(" PT. Inovara Teknologi Noesantara")
     st.subheader("INOTEKNO - Inovation For The Future")
     
     col_hero_text, col_hero_img = st.columns([3, 2])
